@@ -1,0 +1,205 @@
+@charset "utf-8";
+body {
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Orbitron', sans-serif;  font-size: 18px;
+  padding-top: 20px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+
+/* Style the active/current link*/
+.navbar a.active {
+  background: -webkit-linear-gradient(#00d0ff, #00b3ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.img-container {
+     text-align: center;
+     padding-top: 80px;
+     padding-bottom: 20px
+}
+
+.h1 {
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;  font-size;
+  padding-bottom: 20px
+}
+
+.h2 {
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;  font-size;
+}
+
+.img-container2 {
+  text-align: center;
+}
+
+.p1 {
+  font-family: 'Expletus Sans', cursive;
+}
+
+.p2 {
+  font-family: 'Expletus Sans', cursive;
+  padding-bottom: 20px;
+}
+
+.h21 {
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;  font-size;
+}
+
+.p3 {
+  text-align: center;
+  font-family: 'Expletus Sans', cursive;
+  font-size: 20px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.box {
+  background-color: #f2f2f2;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.robot {
+  padding-top: 35px;
+  float: left;
+}
+
+.h22 {
+  padding-top: 90px;
+  font-family: 'Orbitron', sans-serif;  font-size;
+}
+
+.p4 {
+  font-family: 'Expletus Sans', cursive;
+  padding-bottom: 50px
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("1.jpg");
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.goal img {
+  padding: 20px;
+  float: left;
+}
+
+.goal img {
+  padding: 20px;
+  float: left;
+}
+
+.goal img {
+  padding: 20px;
+  float: left;
+}
+
+.goal {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.goalp1 {
+  font-family: 'Expletus Sans', cursive;
+}
+
+.goalp2 {
+  font-family: 'Expletus Sans', cursive;
+}
+
+.goalp3 {
+  font-family: 'Expletus Sans', cursive;
+}
+
+.goalp1 {
+  padding: 35px;
+}
+
+.goalp2 {
+  padding: 35px;
+}
+
+.goalp3 {
+  padding: 35px;
+}
+
+.goalh1 {
+  padding-top: 50px;
+  font-family: 'Orbitron', sans-serif;  font-size;
+  text-align: center;
+}
+
+.goals {
+  background-image: url('polygonal.jpg');
+  background-size: 100%;
+  background-position: 50% 50%;
+}
+
+.about {
+  background-image: url('techy4.png');
+  background-size: 100%;
+  background-position: 50% 50%;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+    background-color: #F5F5F5;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+    background-image: -webkit-gradient(linear,
+                                       left bottom,
+                                       left top,
+                                       color-stop(0.44, rgb(122,153,217)),
+                                       color-stop(0.72, rgb(73,125,189)),
+                                       color-stop(0.86, rgb(28,58,148)));
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0060ba; 
+}

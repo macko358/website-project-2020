@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" type="image/png" href="Minature Logo edited.png">
+<title>Home | Atmos Tech</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Expletus+Sans&display=swap" rel="stylesheet">
+<link href="Styles.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="./slick/slick.css">
+<link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+<link rel="stylesheet" type="text/css" href="slideshow.css">
+
+</head>
+
+<body>
+
+<div class="navbar" style="z-index: 1000;">
+    <a id="logo" href="./home.html" class="logo"><img src="Multimedia Logo.png" alt="Atmos Tech" width="146" height="40"/></a>
+    <div style="float: right;">
+      <a class="active" href="./home.html">Home</a>
+      <a href="./contact.html">Contact</a>
+      <a href="./about.html">About</a>
+	   <a href="#products">Products/Services</a>
+	   <a href="./FAQ.html">FAQ</a>
+   </div>
+</div>
+
+<section class="carousel-wesbite slider">
+    <div>
+      <img src="1.jpg">
+    </div>
+    <div>
+      <img src="2.jpg">
+    </div>
+     <div>
+      <img src="3.jpg">
+    </div>
+  </section>
+
+<div class="main">
+    <div class="img-container"> 
+      <img src="Minature Logo edited.png" alt="Atmos Tech" width="130px" height="130px">
+    </div>
+
+    <h1 style="text-align: center;">Our Latest Breakthroughs</h1>
+
+    <div class="Breakthrough1">
+
+      <img class=planet_img style="border-radius: 50px;" src="Planet photo.jpg" alt="Atmos Tech" width="525px" height="350px">
+      <div class=news1>
+        <h2 class=header1>Kepler A42 has reached a population of 2 billion!</h2>
+        <p class=p1>
+          Remember when we famously discovered the planet Kepler A42 back in 2035? Well, 45 years later the planet 
+          has reached a population of 2 billion. Ever since Earth has been enduring a crisis of overpopulation and 
+          pollution, many migrants have flocked to the planet Kepler A42 to start a new life and a new era in our 
+          history. Our advanced space crafts discovered the liveable planet in 2035, and since that first historic 
+          discovery, we have conquered 5 other liveable planets that humans have been inhabiting since. Kepler A42 
+          has become a success story, and there will be many more to come. 
+        </p>
+      </div>
+    </div>
+    <div class="Breakthrough2">
+
+      <img class=spaceship_img src="Spaceship_img.jpg" alt="Atmos Tech" width="525px" height="350px">
+      <div class=news2>
+        <h2 class=header2>Our new revolutionary design</h2>
+        <p class=p2>
+         We have designed and built the fastest and most efficient spacecraft yet! ATMOS 300B, our new revolutionary 
+         spacecraft, can travel at a maximum speed of 1000 light-years per hour. Our state of the art electric powered 
+         engine propulsion system allows for greater power efficiency, lasting up to ten times longer than rockets powered 
+         by fuel. 
+        </p>
+      </div>
+    </div>
+</div>
+
+<div class="footer">
+</div>
+
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="./slick/slick.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+    $(document).on('ready', function() {
+      $(".carousel-wesbite").slick({
+        dots: true,
+        arrows: false,
+        autoplay: true
+      });
+      
+    });
+</script>
+</body>
+</html>
